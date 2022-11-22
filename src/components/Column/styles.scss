@@ -13,6 +13,7 @@
     color: #333;
     padding: 0 8px;
   }
+
   header {
     padding-left: 15px;
     height: $column-header-height;
@@ -29,7 +30,7 @@
     border-bottom-left-radius: $column-border-radius;
     border-bottom-right-radius: $column-border-radius;
   }
-  ul.task-list {
+  ul.card-list {
     list-style-type: none;
     margin: 0;
     max-height: calc(
