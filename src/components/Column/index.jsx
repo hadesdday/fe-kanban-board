@@ -10,7 +10,7 @@ function Column(props) {
     return (
         <>
             <div className="column">
-                <header>{column?.title}</header>
+                <header>{column.title}</header>
                 <ul className='card-list'>
                     {cards.map((card, index) => <Card key={index} card={card} />)}
                 </ul>
